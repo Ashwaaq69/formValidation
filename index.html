@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <div class="container">
+        <h1>Login/register</h1>
+       <form class="form" id="form">
+
+        <div class="form_control">
+          <label for="Username">Username:</label>
+            <input type="text" name="" id="Username" class="username">
+            <i class="fa fa-check"></i>
+            <i class="fa fa-close"></i>
+            <small>error message</small>
+        </div>
+
+        <div class="form_control ">
+            <label for="email">email:</label>
+              <input type="text" name="" id="email" class="email">
+              <i class="fa fa-check"></i>
+              <i class="fa fa-close"></i>
+              <small>error message</small>
+          </div>
+          <div class="form_control">
+            <label for="password">password:</label>
+              <input type="password" name="" id="password" class="password">
+              <i class="fa fa-check"></i>
+              <i class="fa fa-close"></i>
+              <small>error message</small>
+          </div>
+          <div class="form_control">
+            <label for="confirm-password">confirm-password:</label>
+              <input type="password" name="" id="confirm-password" class="confirm-password">
+              <i class="fa fa-check"></i>
+              <i class="fa fa-close"></i>
+              <small>error message</small>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+       </form>
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>
